@@ -14,6 +14,9 @@ input.onButtonPressed(Button.A, function () {
             . # # # .
             . . # . .
             `)
+        if (input.buttonIsPressed(Button.B)) {
+            break;
+        }
     }
 })
 input.onButtonPressed(Button.B, function () {
