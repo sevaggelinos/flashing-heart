@@ -16,7 +16,7 @@ basic.forever(function () {
                 . # # # .
                 . . # . .
                 `)
-            basic.pause(300)
+            basic.pause(1000)
             if (input.buttonIsPressed(Button.B)) {
                 break;
             }
